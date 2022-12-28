@@ -1,5 +1,4 @@
 const removeFromArray = function(arr, ...args) {
-  let item;
   for (let arg of args) {
     let index = arr.indexOf(arg);
     if (index === -1) continue;
